@@ -1,0 +1,21 @@
+@import "./config";
+.header {
+    background-color: black;
+}
+
+body {
+    background-color: red;
+}
+
+:root {
+    background-color: gold;
+}
+
+.example-answer {
+    border: solid 2px $accent-red-light;
+    background-color: $accent-red;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    color: $contra-light;
+}

@@ -1,0 +1,88 @@
+@import "./template";
+@import "./header";
+.task-description {
+    border: solid 2px $accent-red-light;
+    background-color: $accent-red;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    color: $contra-light;
+}
+
+.task-answer-banner {
+    display: none;
+    background-color: $accent-red-light;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    color: $contra-light;
+}
+
+.task {
+    max-width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    margin: 10px;
+}
+
+.example {
+    text-align: center;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 10px;
+}
+
+.navigating-tasks {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    background-color: $contra-light;
+    border: solid 3px $contra-dark;
+    border-radius: 10px;
+    color: $accent-red-light;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: $font-s;
+    margin: 30px;
+    &:active {
+        background-color: $contra-dark;
+    }
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+input {
+    color: $accent-red-light;
+    background-color: $contra-dark;
+    padding: 3px;
+    border-radius: 20px;
+    font-size: $font-m;
+    margin: 5px;
+}
+
+.example-numbers {
+    font-size: $font-m;
+    color: $accent-red-light;
+}
+
+.task-list {
+    color: $accent-red-light;
+    background-color: $contra-light;
+    font-size: $font-s;
+    border: 1px solid $contra-light;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 20px 20px 20px 20px;
+}

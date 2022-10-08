@@ -1,0 +1,28 @@
+@import "./config";
+:root {
+    background-color: $background-light;
+}
+
+a {
+    &:link,
+    &:active,
+    &:visited,
+    &:hover,
+    &:active {
+        text-decoration: none;
+        color: $contra-light;
+    }
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: $base-site-width;
+}

@@ -1,0 +1,17 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: $accent-red;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: 900;
+    font-size: $font-l;
+}
+
+.header-item {
+    padding: 15px;
+    border-radius: 20px;
+    border: solid 2px $contra-light
+}

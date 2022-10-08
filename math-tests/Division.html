@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/dist/css/test-page.css">
+    <title>Division test ⌚</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <a href="/index.html">
+                <div class="header-item">
+                    Home
+                </div>
+            </a>
+            <a href="/math-tests.html">
+                <div class="header-item">
+                    <div class="test-type">
+                        Math
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="task">
+            <div class="task-description">
+                <p>
+                    Divide numbers by each other. Write down the result and go to next task ➗👼🏿
+                </p>
+            </div>
+            <div class="task-answer-banner"></div>
+            <div class="example">
+                <span class="example-numbers">
+                    12 / 12 =
+                </span>
+                <input type="number" id="answer">
+            </div>
+            <div class="navigating-tasks">
+                <button type="submit" id="goToPrevious"> Previous</button>
+                <button type="submit" id="submitAnswer"> Submit the answer</button>
+                <button type="submit" id="goToNext"> Next</button>
+                <div class="task-list"></div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="/src/division.js "></script>
+<script src="/src/main.js "></script>
+
+</html>

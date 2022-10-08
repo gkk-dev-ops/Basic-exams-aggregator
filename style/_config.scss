@@ -1,0 +1,19 @@
+$background-light: #00AD64; //rgb(225, 220, 220);
+$accent-red:#AD3C28;
+$accent-red-light:#FB5F42;
+$contra-light: #19FA9A;
+$contra-medium: #33FFA8;
+$contra-dark: #00AD64;
+$font-m: 24px;
+$font-l: 32px;
+$font-s: 16px;
+$base-site-width: 1300px;
+* {
+    margin: 0;
+    padding: 0;
+}
+
+// https://stackoverflow.com/questions/26024771/styling-an-input-type-number
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}

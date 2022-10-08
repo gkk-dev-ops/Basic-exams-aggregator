@@ -1,0 +1,42 @@
+@import "./config.scss";
+@import "./template.scss";
+@import "./header.scss";
+.description {
+    background-color: $accent-red;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    border: $accent-red-light solid 2px;
+    color: $contra-light;
+}
+
+// growing efect inspired by: https://travis.media/how-to-make-an-item-grow-on-hover-with-css/
+.test-type-tile {
+    padding-inline: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    border: $accent-red-light solid 2px;
+    box-shadow: 5px 5px;
+    background-color: $accent-red;
+    font-size: $font-m;
+    transition: all .2s ease-in-out;
+    &:hover {
+        background-color: $accent-red-light;
+        transform: scale(1.1);
+    }
+}
+
+.tiles-continer {
+    max-width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    margin: 10px;
+}
